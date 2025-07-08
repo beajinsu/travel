@@ -1,0 +1,12 @@
+# 구글 인증서 (절대 공개 금지!)
+credentials.json
+
+# 파이썬 캐시 파일
+__pycache__/
+*.pyc
+
+# 환경 설정 파일
+.env
+
+# macOS 파일
+.DS_Store

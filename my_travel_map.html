@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a3ca2e160c12b67f1dbe56ca7095b2fb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a3ca2e160c12b67f1dbe56ca7095b2fb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a3ca2e160c12b67f1dbe56ca7095b2fb = L.map(
+                "map_a3ca2e160c12b67f1dbe56ca7095b2fb",
+                {
+                    center: [35.6895, 139.6917],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_94008f9314d90fe20340ebd93e0edfe0 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a3ca2e160c12b67f1dbe56ca7095b2fb);
+        
+    
+            var marker_1ce617ddbb6bfb9bdddcf273425da7cf = L.marker(
+                [35.6895, 139.6917],
+                {}
+            ).addTo(map_a3ca2e160c12b67f1dbe56ca7095b2fb);
+        
+    
+        var popup_2806b87a3adcc69d1132c67fa4038b2b = L.popup({"maxWidth": 250});
+
+        
+            var html_f6433a44206d77abfe0b3bda2aec29b4 = $(`<div id="html_f6433a44206d77abfe0b3bda2aec29b4" style="width: 100.0%; height: 100.0%;"><a href="https://polarsteps.com/yourtrip_tokyo" target="_blank">도쿄 여행기</a></div>`)[0];
+            popup_2806b87a3adcc69d1132c67fa4038b2b.setContent(html_f6433a44206d77abfe0b3bda2aec29b4);
+        
+
+        marker_1ce617ddbb6bfb9bdddcf273425da7cf.bindPopup(popup_2806b87a3adcc69d1132c67fa4038b2b)
+        ;
+
+        
+    
+    
+            marker_1ce617ddbb6bfb9bdddcf273425da7cf.bindTooltip(
+                `<div>
+                     도쿄 여행기
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_92ad810a1e854d1aba1383072cbbcc1f = L.marker(
+                [48.8566, 2.3522],
+                {}
+            ).addTo(map_a3ca2e160c12b67f1dbe56ca7095b2fb);
+        
+    
+        var popup_de1215cc5abe9d828c2529692666017a = L.popup({"maxWidth": 250});
+
+        
+            var html_93d98a95e3456193cf232aa7c91573bd = $(`<div id="html_93d98a95e3456193cf232aa7c91573bd" style="width: 100.0%; height: 100.0%;"><a href="https://journey.app/shared/paris-trip" target="_blank">파리 여행기</a></div>`)[0];
+            popup_de1215cc5abe9d828c2529692666017a.setContent(html_93d98a95e3456193cf232aa7c91573bd);
+        
+
+        marker_92ad810a1e854d1aba1383072cbbcc1f.bindPopup(popup_de1215cc5abe9d828c2529692666017a)
+        ;
+
+        
+    
+    
+            marker_92ad810a1e854d1aba1383072cbbcc1f.bindTooltip(
+                `<div>
+                     파리 여행기
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33eb70c6a668d86c54e24b3c9382e6c7 = L.marker(
+                [37.3891, -5.9845],
+                {}
+            ).addTo(map_a3ca2e160c12b67f1dbe56ca7095b2fb);
+        
+    
+        var popup_9421e19d1e577203e89505294fb7b862 = L.popup({"maxWidth": 250});
+
+        
+            var html_3fc15f0193d51447208952fff049ef3b = $(`<div id="html_3fc15f0193d51447208952fff049ef3b" style="width: 100.0%; height: 100.0%;"><a href="https://findpenguins.com/trip_sevilla" target="_blank">세비야 스냅사진</a></div>`)[0];
+            popup_9421e19d1e577203e89505294fb7b862.setContent(html_3fc15f0193d51447208952fff049ef3b);
+        
+
+        marker_33eb70c6a668d86c54e24b3c9382e6c7.bindPopup(popup_9421e19d1e577203e89505294fb7b862)
+        ;
+
+        
+    
+    
+            marker_33eb70c6a668d86c54e24b3c9382e6c7.bindTooltip(
+                `<div>
+                     세비야 스냅사진
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
